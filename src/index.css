@@ -4,7 +4,8 @@
 /* General Styling */
 body {
   font-family: 'Anonymous Pro', sans-serif;
-  background-color: #F0F4F8; /* Light, soft background */
+  background-image: url(./assets/back.png);
+
   color: #333333; /* Dark gray text for better readability */
   display: flex;
   justify-content: center;
@@ -124,6 +125,7 @@ h2 {
 .form-control {
   margin: 10px 0;
   font-size: 15px;
+  font-family: "IBM Plex Mono", monospace;
 }
 
 .form-control input {
@@ -135,7 +137,6 @@ h2 {
   background-color: #FFFFFF; /* White background for input */
   color: #333333; /* Dark text */
   font-family: "IBM Plex Mono", monospace;
-  
 }
 
 .btn {
@@ -145,7 +146,7 @@ h2 {
   border: 1px solid #CED4DA; /* Soft border */
   border-radius: 8px; /* Slight curves */
   cursor: pointer;
-  width: 80%;
+  width: 85%;
   font-family: "IBM Plex Mono", monospace;
   margin-top: 10px;
   font-weight: 500;
@@ -154,7 +155,9 @@ h2 {
 .btn:hover {
   background-color: #CED4DA; /* Slightly darker gray on hover */
   color: #333333; /* Dark text on hover */
+  font-size: 14px;
 }
+.btn clicked
 
 /* History page */
 .history p {
@@ -183,7 +186,6 @@ li.expense {
   cursor: pointer;
   font-size: 10px;
   color: #574a4a;
-
 }
 
 .delete-btn:hover {

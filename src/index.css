@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* General Styling */
+body {
+  font-family: 'Anonymous Pro', sans-serif;
+  background-color: #F0F4F8; /* Light, soft background */
+  color: #333333; /* Dark gray text for better readability */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  overflow: auto; /* Allow scrolling if content exceeds viewport height */
+}
+
+h2 {
+  text-align: center;
+  font-size: 25px;
+  color: #4A4A4A; /* Slightly lighter gray for headings */
+}
+
+.container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 350px;
+  padding: 20px;
+  background-color: #FFFFFF; /* Clean white background for container */
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2); /* Softer shadow */
+}
+
+/* Balance Styling */
+.balance {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.balance-positive {
+  color: #2E8B57; /* Sea green for positive balance */
+}
+
+.balance-negative {
+  color: #C70039; /* Vivid red for negative balance */
+}
+
+.balance h1 {
+  margin: 10px 0;
+  font-size: 2.5rem;
+}
+
+/* Income and Expense Styling */
+.inc-exp-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  gap: 10px;
+  text-align: center;
+}
+
+.inc-exp-container div {
+  width: 45%;
+  background-color: #F8F9FA; /* Light background for boxes */
+  padding: 10px;
+  border: 1px solid #CED4DA; /* Soft border for separation */
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15); /* Softer shadow */
+}
+
+.money {
+  font-size: 20px;
+  margin: 5px 0;
+}
+
+.plus {
+  color: #28A745; /* Bright green for Income */
+}
+
+.minus {
+  color: #DC3545; /* Bright red for Expense */
+}
+
+/* Transaction History Styling */
+.history {
+  margin-bottom: 20px;
+}
+
+.history h3 {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #495057; /* Medium gray for history headings */
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list li {
+  background-color: #F8F9FA; /* Light background for list items */
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px; /* Slight curves */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15); /* Softer shadow */
+}
+
+/* Add Transaction Form Styling */
+.add-transaction {
+  text-align: center;
+}
+
+.add-transaction h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #495057; /* Medium gray for form headings */
+}
+
+.form-control {
+  margin: 10px 0;
+  font-size: 15px;
+}
+
+.form-control input {
+  width: 80%;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 8px; /* Slight curves */
+  border: 1px solid #CED4DA; /* Soft border */
+  background-color: #FFFFFF; /* White background for input */
+  color: #333333; /* Dark text */
+  
+}
+
+.btn {
+  background-color: #E9ECEF; /* Light background for button */
+  color: #333333; /* Dark text for button */
+  padding: 10px;
+  border: 1px solid #CED4DA; /* Soft border */
+  border-radius: 8px; /* Slight curves */
+  cursor: pointer;
+  width: 80%;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background-color: #CED4DA; /* Slightly darker gray on hover */
+  color: #333333; /* Dark text on hover */
+}
+
+/* History page */
+.history p {
+  font-size: 15px;
+  color: #333333;
+  text-align: center;
+}

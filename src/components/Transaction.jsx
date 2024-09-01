@@ -8,7 +8,7 @@ const Transaction = ({ transaction }) => {
     <li className={transactionType}>
       {transaction.text}
       <span>
-        {sign}${Math.abs(transaction.amount)}
+        {sign}₹{Math.abs(transaction.amount)}
       </span>
     </li>
   );

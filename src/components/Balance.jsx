@@ -13,7 +13,7 @@ const Balance = () => {
   return (
     <div className="balance">
       <h4 style={{ color: balanceColor }}>Current Balance</h4>
-      <h1>${total}</h1>
+      <h1>₹{total}</h1>
     </div>
   );
 };

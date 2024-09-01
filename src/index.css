@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 /* General Styling */
 body {
   font-family: 'Anonymous Pro', sans-serif;
@@ -106,15 +107,18 @@ h2 {
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15); /* Softer shadow */
 }
 
+
 /* Add Transaction Form Styling */
 .add-transaction {
   text-align: center;
+  font-family: "IBM Plex Mono", monospace;
 }
 
 .add-transaction h3 {
   font-size: 1.2rem;
   margin-bottom: 10px;
   color: #495057; /* Medium gray for form headings */
+  font-family: "IBM Plex Mono", monospace;
 }
 
 .form-control {
@@ -130,6 +134,7 @@ h2 {
   border: 1px solid #CED4DA; /* Soft border */
   background-color: #FFFFFF; /* White background for input */
   color: #333333; /* Dark text */
+  font-family: "IBM Plex Mono", monospace;
   
 }
 
@@ -141,7 +146,9 @@ h2 {
   border-radius: 8px; /* Slight curves */
   cursor: pointer;
   width: 80%;
+  font-family: "IBM Plex Mono", monospace;
   margin-top: 10px;
+  font-weight: 500;
 }
 
 .btn:hover {
@@ -154,4 +161,32 @@ h2 {
   font-size: 15px;
   color: #333333;
   text-align: center;
+}
+
+
+/* Delete Button Styling */
+li.income,
+li.expense {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.transaction-text {
+  margin-left: -150px; /* Moves the text to the left */
+}
+
+.delete-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 10px;
+  color: #574a4a;
+
+}
+
+.delete-btn:hover {
+  color: #ff1744;
+  font-size: 20px;
 }
